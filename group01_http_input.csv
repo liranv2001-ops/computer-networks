@@ -1,6 +1,0 @@
-app_protocol,src_ip,src_port,dst_ip,dst_port,message,timestamp
-HTTP,127.0.0.1,12345,127.0.0.1,80,POST /login HTTP/1.1,2024-01-12 10:00:00
-DNS,127.0.0.1,54321,8.8.8.8,53,Standard query 0x1234 A google.com,2024-01-12 10:00:01
-SMTP,127.0.0.1,45678,127.0.0.1,25,HELO mail.server.com,2024-01-12 10:00:02
-HTTP,127.0.0.1,12345,127.0.0.1,80,GET /index.html HTTP/1.1,2024-01-12 10:00:03
-DNS,127.0.0.1,55555,1.1.1.1,53,Standard query 0x5678 A facebook.com,2024-01-12 10:00:04
