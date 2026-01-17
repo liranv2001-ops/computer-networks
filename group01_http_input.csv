@@ -1,0 +1,6 @@
+msg_id,app_protocol,src_app,src_ip,src_port,dst_app,dst_ip,dst_port,message,timestamp
+1,HTTP,client_browser,127.0.0.1,12345,web_server,127.0.0.1,80,POST /login HTTP/1.1,2024-01-12 10:00:00
+2,DNS,dns_resolver,127.0.0.1,54321,google_dns,8.8.8.8,53,Standard query 0x1234 A google.com,2024-01-12 10:00:01
+3,SMTP,mail_client,127.0.0.1,45678,mail_server,127.0.0.1,25,HELO mail.server.com,2024-01-12 10:00:02
+4,HTTP,client_browser,127.0.0.1,12345,web_server,127.0.0.1,80,GET /index.html HTTP/1.1,2024-01-12 10:00:03
+5,DNS,dns_resolver,127.0.0.1,55555,facebook_dns,1.1.1.1,53,Standard query 0x5678 A facebook.com,2024-01-12 10:00:04
